@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<script>
+    function calcularAreaTerreno(largura,comprimento) {
+        //logica
+        var area = largura * comprimento
+        return area 
+    }
+    var largura = prompt('Digite a largura do terreno em metros')
+    var comprimento = prompt('Digite a comprimento do terreno em metros')
+
+    var area = calcularAreaTerreno(largura, comprimento)
+
+    document.write('O terreno possui ' + area + ' metros quadrados') //imprimi na tela
+
+</script>
+<script>
+
+    function soma(a,b){
+
+        // b = b === undefined ? 0 : b -------- para corrigir o caso do not a number.
+
+        return a + b
+    }
+
+    console.log (soma(7,7))
+    console.log (soma(7,7,9,7)) // desconsidera os parametros adicionais.
+    console.log (soma(7)) //neste caso faltando um parametro ficaria assim----    a + undefined = not a number (NaN)
+    console.log (soma()) // sem paramentro ficaria ---- undefinded + undefined.
+
+</script>
+
+<body>   
+</body>
+</html>

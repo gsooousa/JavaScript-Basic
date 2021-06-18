@@ -2,7 +2,7 @@
 
 //Um numero só é primo se for divido por 1 e por ele mesmo.
 
-exibirNumeroPrimo(15);
+exibirNumeroPrimo(100);
 
 function exibirNumeroPrimo(limite) {
 
