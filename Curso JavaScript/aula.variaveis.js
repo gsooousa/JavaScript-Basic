@@ -61,8 +61,13 @@ console.log('existe xx e yy antes do bloco ' , xx , yy);
 console.log('existe xx e yy antes do bloco ' , xx , yy);
 /*---------------------------------------------------------------------------------*/
 
+//agrupamento de declarações
+let age, isHuman
 
+age = 18 
+isHuman = true
 
+console.log(age, isHuman);
 
 
 
