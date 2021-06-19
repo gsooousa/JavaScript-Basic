@@ -83,3 +83,23 @@ sayMyName('IronMan')
  )
 
  /*---------------------------------------------------------*/
+
+//function construtor
+
+function Person() {
+  this.nameee=nameee
+  this.walk = function () {
+    return this.nameee + 'andando'
+  }
+}
+
+const mayk = new Person( 'Mayk')
+const joao = new Person( 'joao')
+const paulo = new Person( 'paulo')
+
+console.log(mayk.walk());
+console.log(joao);
+console.log(paulo);
+
+/*--------------------------------------------------*/
+
